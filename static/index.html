@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>Хостинг изображений</title>
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+        body {
+            background: linear-gradient(to right, #ff7e5f, #feb47b);
+            color: white;
+        }
+
+        .navbar {
+            background-color: rgba(255, 255, 255, 0.8);
+        }
+
+        .jumbotron {
+            background-color: rgba(255, 255, 255, 0.9);
+            color: #333;
+        }
+
+        .btn-primary {
+            background-color: #ff7e5f;
+            border-color: #ff7e5f;
+        }
+
+        .btn-secondary {
+            background-color: #feb47b;
+            border-color: #feb47b;
+        }
+
+        .center-buttons {
+            text-align: center;
+        }
+    </style>
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg navbar-light">
+        <a class="navbar-brand" href="#">Хостинг изображений</a>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav">
+                <li class="nav-item">
+                    <a class="nav-link" href="/upload">Загрузить</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="/images">Просмотр изображений</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+    <div class="container mt-5">
+        <div class="jumbotron">
+            <h1 class="display-4">Добро пожаловать на Хостинг изображений</h1>
+            <p class="lead">Наш сервис - это не просто хранилище изображений. Это место, где пользователи могут:</p>
+            <ul>
+                <li>Загружать фотографии в популярных форматах (.jpg, .png, .gif).</li>
+                <li>Быть уверенными, что их изображения надежно хранятся.</li>
+                <li>Получать удобные прямые ссылки на загруженные изображения.</li>
+            </ul>
+            <hr class="my-4">
+            <p>Нажмите на кнопки ниже, чтобы загрузить или просмотреть изображения.</p>
+            <div class="center-buttons">
+                <a class="btn btn-primary btn-lg" href="/upload" role="button">Загрузить</a>
+                <a class="btn btn-secondary btn-lg" href="/images" role="button">Просмотр изображений</a>
+            </div>
+        </div>
+    </div>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+
+</html>
